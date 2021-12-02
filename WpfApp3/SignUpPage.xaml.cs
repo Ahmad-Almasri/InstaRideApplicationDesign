@@ -23,7 +23,38 @@ namespace WpfApp3
         public SignUpPage()
         {
             InitializeComponent();
+            addDayToComboBox();
+            addMonthToComboBox();
+            addYearToCmboBox();
         }
+
+        private void addYearToCmboBox()
+        {
+            for (int i = 2004; i >= 1950; i--)
+            {
+                comboBoxYears.Items.Add(i);
+            }
+        }
+
+        private void addMonthToComboBox()
+        {
+            string[] months = System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.MonthNames;
+
+            foreach (string month in months) // writing out
+            {
+                comboBoxMonths.Items.Add(month);
+            }
+        }
+
+        private void addDayToComboBox()
+        {
+            for (int i = 1; i <= 31; i++)
+            {
+                comboBoxDays.Items.Add(i);
+            }
+        }
+
+        
 
         private void ActiveTicketDown(object sender, MouseButtonEventArgs e)
         {

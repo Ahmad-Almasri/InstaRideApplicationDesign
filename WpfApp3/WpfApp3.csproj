@@ -58,32 +58,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AddFunds.xaml.cs">
-      <DependentUpon>AddFunds.xaml</DependentUpon>
-    </Compile>
     <Compile Include="AddFundsPage.xaml.cs">
       <DependentUpon>AddFundsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="AddOptions.xaml.cs">
-      <DependentUpon>AddOptions.xaml</DependentUpon>
     </Compile>
     <Compile Include="AddOptionsPage.xaml.cs">
       <DependentUpon>AddOptionsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="History.xaml.cs">
-      <DependentUpon>History.xaml</DependentUpon>
-    </Compile>
     <Compile Include="HistoryPage.xaml.cs">
       <DependentUpon>HistoryPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LogIn.xaml.cs">
-      <DependentUpon>LogIn.xaml</DependentUpon>
-    </Compile>
     <Compile Include="LogInPage.xaml.cs">
       <DependentUpon>LogInPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MainOptions.xaml.cs">
-      <DependentUpon>MainOptions.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainOptionsPage.xaml.cs">
       <DependentUpon>MainOptionsPage.xaml</DependentUpon>
@@ -91,20 +76,11 @@
     <Compile Include="OtherPages.xaml.cs">
       <DependentUpon>OtherPages.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PaymentByCC.xaml.cs">
-      <DependentUpon>PaymentByCC.xaml</DependentUpon>
-    </Compile>
     <Compile Include="PaymentByCCPage.xaml.cs">
       <DependentUpon>PaymentByCCPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PaymentOptions.xaml.cs">
-      <DependentUpon>PaymentOptions.xaml</DependentUpon>
-    </Compile>
     <Compile Include="PaymentOptionsPage.xaml.cs">
       <DependentUpon>PaymentOptionsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="purchaseTickets.xaml.cs">
-      <DependentUpon>purchaseTickets.xaml</DependentUpon>
     </Compile>
     <Compile Include="PurchaseTicketsPage.xaml.cs">
       <DependentUpon>PurchaseTicketsPage.xaml</DependentUpon>
@@ -112,17 +88,11 @@
     <Compile Include="SendTicketPage.xaml.cs">
       <DependentUpon>SendTicketPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SignUp.xaml.cs">
-      <DependentUpon>SignUp.xaml</DependentUpon>
-    </Compile>
     <Compile Include="SignUpPage.xaml.cs">
       <DependentUpon>SignUpPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="specialTicket.xaml.cs">
       <DependentUpon>specialTicket.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Wallet.xaml.cs">
-      <DependentUpon>Wallet.xaml</DependentUpon>
     </Compile>
     <Compile Include="WalletPage.xaml.cs">
       <DependentUpon>WalletPage.xaml</DependentUpon>
@@ -130,15 +100,7 @@
     <Compile Include="Welcome1.xaml.cs">
       <DependentUpon>Welcome1.xaml</DependentUpon>
     </Compile>
-    <Page Include="AddFunds.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="AddFundsPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="AddOptions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -146,23 +108,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="History.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="HistoryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="LogIn.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="LogInPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainOptions.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -186,23 +136,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PaymentByCC.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="PaymentByCCPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PaymentOptions.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="PaymentOptionsPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="purchaseTickets.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -214,19 +152,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SignUp.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="SignUpPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="specialTicket.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Wallet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
