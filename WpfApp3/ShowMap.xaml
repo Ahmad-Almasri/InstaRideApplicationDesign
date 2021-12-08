@@ -22,10 +22,15 @@
             <TextBox x:Name="txtEndLocation" Width="100"></TextBox>
         </StackPanel>
 
+        <StackPanel  x:Name="SP" Orientation="Horizontal" Background="#FF1861F1" Height="50" Width="450" HorizontalAlignment="Stretch" VerticalAlignment="top" Margin="0,0,0,0">
+            <TextBlock Text="&#129032;" FontSize="35px" FontFamily="Microsoft JhengHei" Foreground="#FFF"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20,0,0,0" Cursor="Hand" MouseDown="backBtn"/>
+
+        </StackPanel>
+
         <ScrollViewer Grid.Row="1">
             <WebBrowser x:Name="browser"></WebBrowser>
-             
+
         </ScrollViewer>
-        
+
     </Grid>
 </Page>
