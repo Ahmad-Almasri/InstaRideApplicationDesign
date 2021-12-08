@@ -41,7 +41,7 @@
 
             <Button Content="Logn In" Height ="30"  Width="230"  BorderThickness="0,0,0,1" Foreground="#FFF" Background="#FF1C54C2" BorderBrush="#FFF" Margin="0,50,0,0" Click="logInBtn" />
             <Button Content="Sign Up" Height ="30"  Width="230"  BorderThickness="0,0,0,1" Foreground="#FFF" Background="#FF1C54C2" BorderBrush="#FFF" Margin="0,15,0,0" Click="signUpBtn"/>
-            <Button Content="Map" Height ="30"  Width="230"  BorderThickness="0,0,0,1" Foreground="#FFF" Background="#FF1C54C2" BorderBrush="#FFF" Margin="0,15,0,0"/>
+            <Button Content="Map" Height ="30"  Width="230"  BorderThickness="0,0,0,1" Foreground="#FFF" Background="#FF1C54C2" BorderBrush="#FFF" Margin="0,15,0,0" Click="viewmap" />
             <Button Content="Settings" Height ="30"  Width="230"  BorderThickness="0,0,0,1" Foreground="#FFF" Background="#FF1C54C2" BorderBrush="#FFF" Margin="0,15,0,0"/>
 
         </StackPanel>
