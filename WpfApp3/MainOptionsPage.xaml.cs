@@ -120,6 +120,13 @@ namespace WpfApp3
             nav.Navigate(new specialTicket());
         }
 
+        private void viewmap(object sender, RoutedEventArgs e)
+        {
+            var nav = NavigationService.GetNavigationService(this);
+
+            nav.Navigate(new MapPage());
+        }
+
         private void RightDown(object sender, MouseButtonEventArgs e)
         {
             if (SP2.Height == 60)
