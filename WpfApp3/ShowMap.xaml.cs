@@ -22,16 +22,22 @@ namespace WpfApp3
     /// </summary>
     public partial class ShowMap : Page
     {
-           
+
         public ShowMap(string startLocation, string endLocation, string url)
         {
             InitializeComponent();
             txtStartLocation.Text = startLocation;
             txtEndLocation.Text = endLocation;
             browser.Navigate(url);
-                    
+
         }
 
+        private void backBtn(object sender, MouseButtonEventArgs e)
+        {
+            var nav = NavigationService.GetNavigationService(this);
+
+            nav.Navigate(new MapPage());
+        }
     }
 
 
