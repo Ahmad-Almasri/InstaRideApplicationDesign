@@ -88,11 +88,17 @@
     <Compile Include="SendTicketPage.xaml.cs">
       <DependentUpon>SendTicketPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BookTripPage.xaml.cs">
+      <DependentUpon>BookTripPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SignUpPage.xaml.cs">
       <DependentUpon>SignUpPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="specialTicket.xaml.cs">
       <DependentUpon>specialTicket.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TripsPage.xaml.cs">
+      <DependentUpon>TripsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="WalletPage.xaml.cs">
       <DependentUpon>WalletPage.xaml</DependentUpon>
@@ -152,6 +158,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="BookTripPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="SignUpPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -159,6 +169,10 @@
     <Page Include="specialTicket.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TripsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="WalletPage.xaml">
       <SubType>Designer</SubType>

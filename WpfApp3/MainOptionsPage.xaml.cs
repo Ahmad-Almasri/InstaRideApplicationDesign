@@ -120,6 +120,20 @@ namespace WpfApp3
             nav.Navigate(new specialTicket());
         }
 
+        private void accBtn(object sender, RoutedEventArgs e)
+        {
+            var nav = NavigationService.GetNavigationService(this);
+
+            nav.Navigate(new BookTripPage());
+        }
+
+        private void tripBtn(object sender, RoutedEventArgs e)
+        {
+            var nav = NavigationService.GetNavigationService(this);
+
+            nav.Navigate(new TripsPage());
+        }
+
         private void RightDown(object sender, MouseButtonEventArgs e)
         {
             if (SP2.Height == 60)
